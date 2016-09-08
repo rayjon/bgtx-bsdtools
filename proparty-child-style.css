@@ -1,0 +1,56 @@
+@charset 'utf-8';
+/*
+ Theme Name:   Progress Party Child
+ Theme URI:    http://proparty.axiomthemes.com/
+ Description:  Progress Party - Fully Responsive and Mobile Friendly theme
+ Author:       AxiomThemes
+ Author URI:   http://axiomthemes.com
+ Template:     proparty
+ Version:      1.2.1
+ Tags:         light, inheritable theme-options
+ Text Domain:  axiom
+*/
+
+
+@import url("../proparty/style.css");
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+h4.post_title {
+	font-size: 18px !important;
+}
+
+.header_social_icons img {
+	margin-top: 10px;
+	padding-top: 2px;
+}
+
+.header_social_icons_last img {
+	margin-right: 16px;
+}
+
+.vc_custom_heading h4 {
+	font-size: 18px !important;
+}
+
+.vc_btn3.vc_btn3-color-juicy-pink, .vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat {
+	background-color: #124b91 !important;
+}
+
+#sb_instagram #sbi_load, #sb_instagram .sb_instagram_error {
+	text-align: right !important;
+}
+
+.vc_row {
+	margin-right: 0px !important;
+}
+
+body, p {
+    -webkit-font-smoothing: subpixel-antialiased !important;
+}
+
+.post_info_item .post_info_tags, .post_info_item .post_info_counters {
+    display: none !important;
+}
