@@ -320,9 +320,7 @@ body, p {
     box-sizing: content-box;
 }
 
-.nested_table input#firstname {
- width: 95%;
-}
+
 
 select {
     width: 100%;
@@ -337,6 +335,10 @@ select {
 #credit_card-creditCardTypeSelector ul {
   margin-bottom: .5em;
   overflow: auto;
+}
+
+.nested_table input#firstname {
+ width: 95%;
 }
 
 /*# sourceMappingURL=style.css.map */
