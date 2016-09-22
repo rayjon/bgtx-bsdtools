@@ -4448,12 +4448,6 @@ td, th {
     font-family: 'Montserrat', sans-serif !important;
     -webkit-font-smoothing: antialiased !important;
 }
-
-#processbutton {
-    padding: 12px 12px 12px 12px !important;
-    border: 1px solid #afafaf;
-}
-
 /* Responsive styles
 -------------------------------------------------------------- */
 
