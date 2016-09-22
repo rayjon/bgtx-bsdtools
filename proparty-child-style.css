@@ -315,5 +315,9 @@ body, p {
 
 .menu_main_wrap .search_wrap .search_icon {
   top: 13px; }
+  
+ input[type="checkbox"] + label {
+    box-sizing: content-box;
+}
 
 /*# sourceMappingURL=style.css.map */
