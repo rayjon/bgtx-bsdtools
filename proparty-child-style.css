@@ -88,7 +88,7 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
   line-height: 1.5;
-  margin-bottom: 0.75em;
+  margin-bottom: 0.6em;
   padding: .75em;
   -webkit-transition: border-color 150ms ease;
   transition: border-color 150ms ease;
