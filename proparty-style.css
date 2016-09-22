@@ -251,16 +251,7 @@ button, input, optgroup, select, textarea {
 button, input {
 	line-height: normal;		/* Addresses FF3/4 setting line-height using !important in the UA stylesheet */
 }
-select {
-	background-color: #e8e8e8;
-	border: 0;
-	color: #606060;
-	height: 49px;
-	line-height: 49px;
-	overflow: hidden;
-	padding: 0 22px;
-	width: 100%;
-}
+
 button {
 	overflow: visible; 
 }
