@@ -319,6 +319,11 @@ body, p {
  input[type="checkbox"] + label {
     box-sizing: content-box;
 }
+
+#firstname {
+ width: 95%;
+}
+
 select {
     width: 100%;
     border: 1px solid #7a7a7a;
