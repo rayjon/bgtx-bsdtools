@@ -28,11 +28,12 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
   display: inline-block;
   font-family: "Montserrat", sans-serif;
-  font-size: 1em;
+  font-size: 1.25em;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
   line-height: 1;
-  padding: 0.75em 1.5em;
+  margin: 1em 0;
+  padding: 0.75em 2em;
   text-align: center;
   text-decoration: none;
   -webkit-transition: background-color 150ms ease;
