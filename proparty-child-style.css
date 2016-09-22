@@ -320,7 +320,7 @@ body, p {
     box-sizing: content-box;
 }
 
-input#firstname {
+.nested_table input#firstname {
  width: 95%;
 }
 
