@@ -334,7 +334,7 @@ select {
  display: inline;
 }
 
-.creditCardTypeSelector ul {
+#credit_card-creditCardTypeSelector ul {
   margin-bottom: .5em;
   overflow: auto;
 }
