@@ -88,7 +88,7 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
   line-height: 1.5;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   padding: .75em;
   -webkit-transition: border-color 150ms ease;
   transition: border-color 150ms ease;
@@ -324,9 +324,10 @@ body, p {
 
 
 select {
-    width: 100%;
-    border: 1px solid #7a7a7a;
-    height: 50px;
+   border: 1px solid #7a7a7a;
+   height: 50px;
+   margin-bottom: 1.5em;
+   width: 100%;
 }
 
 #contribution label, #contribution .fieldlabel {
