@@ -330,4 +330,8 @@ select {
     height: 42px;
 }
 
+#contribution label, #contribution .fieldlabel {
+ display: inline;
+}
+
 /*# sourceMappingURL=style.css.map */
