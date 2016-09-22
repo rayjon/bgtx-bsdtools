@@ -319,5 +319,10 @@ body, p {
  input[type="checkbox"] + label {
     box-sizing: content-box;
 }
+select {
+    width: 100%;
+    border: 1px solid #ddd;
+    height: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */
