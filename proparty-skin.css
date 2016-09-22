@@ -934,23 +934,6 @@ td, th,
 /* 3. Form fields settings
 -------------------------------------------------------------- */
 
-input[type="text"],
-input[type="number"],
-input[type="email"],
-input[type="search"],
-input[type="password"],
-textarea {
-	border:none;
-	background-color:#e8e8e8;
-	font: 400 13px/49px 'Montserrat';
-	height: 49px;
-	-webkit-border-radius: 0;
-	   -moz-border-radius: 0;
-			border-radius: 0;
-}
-
-textarea { line-height: 20px;}
-
 .bg_tint_light input[type="text"],
 .bg_tint_light input[type="number"],
 .bg_tint_light input[type="email"],
