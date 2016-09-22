@@ -4439,11 +4439,6 @@ input[type="checkbox"]:checked + label:before {
    -ms-transform: rotate(-45deg);
    transform: rotate(-45deg);    
 }
-
-#phone {
-    background-color: #e8e8e8 !important;
-    height: 49px !important;
-}
  
 #contribution label, #contribution .fieldlabel {
     text-transform: capitalize !important;
