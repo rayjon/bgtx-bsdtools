@@ -348,4 +348,7 @@ select {
  margin: 1.5em 0 !important;
 }
 
+#event_results .event {
+  display: block; 
+}
 /*# sourceMappingURL=style.css.map */
