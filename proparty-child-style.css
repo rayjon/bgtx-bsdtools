@@ -335,7 +335,7 @@ select {
 }
 
 .creditCardTypeSelector ul {
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
   overflow: auto;
 }
 
