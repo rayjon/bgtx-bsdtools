@@ -334,4 +334,9 @@ select {
  display: inline;
 }
 
+.creditCardTypeSelector ul {
+  margin-bottom: 0.5em;
+  overflow: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
