@@ -110,11 +110,6 @@ dt, b, strong {	font-weight: 600; }
 
 
 /* Normal state */
-h1, h2, h3, h4, h5, h6,
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-	color:#363842;
-}
-
 .sidemenu_button i,
 .sidemenu_wrap .sidemenu_close,
 a, button {
@@ -140,7 +135,6 @@ a, button {
 .bg_tint_dark a:hover {
 	color:#ffffff;
 }
-
 
 /* Light styles */
 .bg_tint_light {
