@@ -539,6 +539,9 @@ body {
     content: "";
     display: table; }
 
+.wpb_wrapper.content_wrap {
+  padding: 0; }
+
 ul,
 ol {
   list-style-type: none;

@@ -17,3 +17,7 @@ body {
     @include outer-container($local-max-width);
     padding: 0 $base-spacing;
 }
+
+.wpb_wrapper.content_wrap {
+    padding: 0;
+}
