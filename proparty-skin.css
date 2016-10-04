@@ -38,6 +38,81 @@
 16. Rev. slider
 17. Appointments
 -------------------------------------------------------------- */
+<<<<<<< HEAD
+=======
+
+
+
+
+/* 1. Theme typography
+-------------------------------------------------------------- */
+body {
+	color: #616161;
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 16px;
+	font-weight:400;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h1 {
+	font: 400 50px/60px 'Montserrat' !important;
+	margin-top:0;
+	margin-bottom: 0.69em;
+}		/* 45px */
+
+h1.styling1 {
+	padding-left: 176px;
+}
+h1.styling1:before {
+	background-color: #dddddd;
+	content: '';
+	height: 2px;
+	position: absolute;
+	top: 32px; left: 56px;
+	width: 99px;
+}
+
+h2 {
+	font: 400 40px/60px 'Montserrat' !important;
+	margin-top:0;
+	margin-bottom: 0.75em;
+}		/* 38px */
+h3 {
+	font: 400 30px/36px 'Montserrat' !important;
+	margin-top:0;
+	margin-bottom: 0.8em;
+}		/* 32px */
+h4 {
+	font: 400 28px/30px 'Montserrat' !important;
+	margin-bottom: 1.1em;
+	margin-top: 0;
+}		/* 26px */
+h5 {
+	font: 700 18px/28px 'Montserrat' !important;
+    margin-bottom: 1.25em;
+	margin-top:0;
+}		/* 18px */
+h6 {
+	font: 800 14px/20px 'Montserrat' !important;
+	margin-top:0;
+	margin-bottom: 0.8em;
+}		/* 12px */
+h1+h2,h1+h3,h1+h4,h1+h5,h1+h6,
+h2+h3,h2+h4,h2+h5,h2+h6,
+h3+h4,h3+h5,h3+h6,
+h4+h5,h4+h6,
+h5+h6 {
+	margin-top:0;
+}
+dt, b, strong {	font-weight: 600; }
+
+
+/* Normal state */
+>>>>>>> 59316bbf803d1b20917a9743df5fc1b4a8ddccd5
 .sidemenu_button i,
 .sidemenu_wrap .sidemenu_close,
 a, button {
@@ -63,7 +138,6 @@ a, button {
 .bg_tint_dark a:hover {
 	color:#ffffff;
 }
-
 
 /* Light styles */
 .bg_tint_light {
