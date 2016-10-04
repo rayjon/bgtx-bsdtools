@@ -653,7 +653,7 @@ pre {
       background: #124B91; }
 
 .nav-container {
-  padding: 0.75rem 1.5rem; }
+  padding: 0 1.5rem 0.75rem; }
   .nav-container .logo {
     float: left;
     display: block;

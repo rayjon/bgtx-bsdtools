@@ -41,7 +41,7 @@ $header-font-color: #2B3242;
 }
 
 .nav-container {
-    padding: $small-spacing $base-spacing;
+    padding: 0 $base-spacing $small-spacing;
 
     .logo {
         @include span-columns(8);
