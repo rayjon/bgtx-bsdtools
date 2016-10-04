@@ -114,3 +114,7 @@ form {
 #contribution td.contribcolumn[style] {
     width: 100% !important;
 }
+
+#contribution label .radio:last-child {
+    margin: 0;
+}
