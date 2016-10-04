@@ -661,7 +661,10 @@ pre {
       background: #124B91; }
 
 .nav-container {
-  padding: 0 1.5rem 0.75rem; }
+  padding: 0.75rem; }
+  @media screen and (min-width: 940px) {
+    .nav-container {
+      padding-top: 0; } }
   .nav-container .logo {
     float: left;
     display: block;
@@ -739,12 +742,12 @@ pre {
         padding: 0 1.125rem;
         text-indent: 0; } }
   .menu_main_nav li a {
-    color: #2B3242;
+    color: #fff;
     letter-spacing: .5px;
     text-transform: uppercase; }
     @media screen and (min-width: 940px) {
       .menu_main_nav li a {
-        color: #222;
+        color: #2B3242;
         font-size: 13px;
         padding: 0;
         height: 86px;

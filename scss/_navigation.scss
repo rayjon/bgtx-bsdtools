@@ -41,7 +41,11 @@ $header-font-color: #2B3242;
 }
 
 .nav-container {
-    padding: 0 $base-spacing $small-spacing;
+    padding: $small-spacing;
+
+    @include media($medium-screen-landscape) {
+        padding-top: 0;
+    }
 
     .logo {
         @include span-columns(8);
@@ -140,12 +144,12 @@ $header-font-color: #2B3242;
     }
 
     li a {
-        color: $header-font-color;
+        color: $base-background-color;
         letter-spacing: .5px;
         text-transform: uppercase;
 
         @include media($medium-screen-landscape) {
-            color: $base-font-color;
+            color: $header-font-color;
             font-size: $header-font-size;
             padding: 0;
             height: $header-height;
