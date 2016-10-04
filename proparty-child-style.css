@@ -516,7 +516,8 @@ form table {
   margin: 0; }
 form td {
   padding: 0; }
-form #contribution td.contribcolumn[style] {
+
+#contribution td.contribcolumn[style] {
   width: 100% !important; }
 
 html {
@@ -558,7 +559,12 @@ body {
   .row > [class*="column-"],
   .columns_wrap > [class*="column-"] {
     width: 100%;
-    float: none; } }
+    float: none;
+    padding: 0; } }
+
+@media screen and (max-width: 940px) {
+  .columns_wrap {
+    margin: 0; } }
 
 ul,
 ol {
