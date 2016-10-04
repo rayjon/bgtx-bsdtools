@@ -1,10 +1,10 @@
 $mobile-icon-height: 40px;
 $top-bar-height: $mobile-icon-height;
 $header-height: 86px;
-$header-font-size: 14px;
+$header-font-size: 13px;
 $menu-toggle-height: 30px;
 $menu-toggle-width: 30px;
-$logo-width: 200px;
+$logo-width: 243px;
 $mobile-logo-width: 160px;
 $menu-toggle-line: 5px;
 
@@ -30,7 +30,7 @@ $menu-toggle-line: 5px;
     .donate-now {
         background: $secondary-color;
         text-transform: uppercase;
-        font-size: $header-font-size;
+        font-size: 10px;
 
         &:hover {
             background: $action-color;
@@ -50,7 +50,7 @@ $menu-toggle-line: 5px;
         @include media($medium-screen-landscape) {
             @include span-columns(3);
             a img {
-                width: $logo-width;
+                width: $logo-width; 
             }
         }
     }
