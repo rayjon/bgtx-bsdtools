@@ -543,7 +543,7 @@ body {
   padding: 0; }
 
 .page_content_wrap.wrap_custom {
-  padding-top: 4.5rem; }
+  padding: 4.5rem 0; }
 
 ul,
 ol {
