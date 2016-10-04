@@ -533,6 +533,7 @@ body {
   max-width: 1150px;
   margin-left: auto;
   margin-right: auto;
+  box-sizing: content-box;
   padding: 0 1.5rem; }
   .content_wrap::after {
     clear: both;
@@ -729,7 +730,8 @@ pre {
         padding: 0 1.125rem;
         text-indent: 0; } }
   .menu_main_nav li a {
-    color: #fff;
+    color: #2B3242;
+    letter-spacing: .5px;
     text-transform: uppercase; }
     @media screen and (min-width: 940px) {
       .menu_main_nav li a {

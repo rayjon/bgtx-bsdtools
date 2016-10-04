@@ -7,6 +7,7 @@ $menu-toggle-width: 30px;
 $logo-width: 243px;
 $mobile-logo-width: 160px;
 $menu-toggle-line: 5px;
+$header-font-color: #2B3242;
 
 .top-bar-menu {
     display: none;
@@ -50,7 +51,7 @@ $menu-toggle-line: 5px;
         @include media($medium-screen-landscape) {
             @include span-columns(3);
             a img {
-                width: $logo-width; 
+                width: $logo-width;
             }
         }
     }
@@ -138,7 +139,8 @@ $menu-toggle-line: 5px;
     }
 
     li a {
-        color: $base-background-color;
+        color: $header-font-color;
+        letter-spacing: .5px;
         text-transform: uppercase;
 
         @include media($medium-screen-landscape) {
