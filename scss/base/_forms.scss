@@ -17,6 +17,20 @@ label {
   margin-bottom: $small-spacing / 2;
 }
 
+.input {
+    input[type="checkbox"] {
+        display: block;
+        float: left;
+        height: $base-spacing;
+         transform:scale(1.35);
+    }
+
+    input[type="checkbox"] + label {
+        display: block;
+        margin: 0 0 $small-spacing $base-spacing * 1.25;
+    }
+}
+
 input,
 select,
 textarea {

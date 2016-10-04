@@ -40,21 +40,23 @@ $menu-toggle-line: 5px;
 
 .nav-container {
     padding: $small-spacing $base-spacing;
-}
 
-.logo {
-    @include span-columns(8);
-    a img {
-        width: $mobile-logo-width;
-    }
-
-    @include media($medium-screen-landscape) {
-        @include span-columns(3);
+    .logo {
+        @include span-columns(8);
         a img {
-            width: $logo-width;
+            width: $mobile-logo-width;
+        }
+
+        @include media($medium-screen-landscape) {
+            @include span-columns(3);
+            a img {
+                width: $logo-width;
+            }
         }
     }
 }
+
+
 
 .main-nav {
     .menu-toggle {
