@@ -647,7 +647,8 @@ pre {
   .top-bar-menu .donate-now {
     background: #3598DB;
     text-transform: uppercase;
-    font-size: 10px; }
+    font-size: 10px;
+    letter-spacing: .5px; }
     .top-bar-menu .donate-now:hover {
       background: #124B91; }
 
