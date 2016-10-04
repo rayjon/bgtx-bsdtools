@@ -21,3 +21,7 @@ body {
 .sc_content.content_wrap {
     padding: 0;
 }
+
+.page_content_wrap.wrap_custom {
+    padding-top: $base-spacing * 3;
+}

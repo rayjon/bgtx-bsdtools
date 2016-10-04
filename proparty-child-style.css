@@ -542,6 +542,9 @@ body {
 .sc_content.content_wrap {
   padding: 0; }
 
+.page_content_wrap.wrap_custom {
+  padding-top: 4.5rem; }
+
 ul,
 ol {
   list-style-type: none;
