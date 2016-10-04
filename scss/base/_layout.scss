@@ -24,7 +24,11 @@ body {
 }
 
 .page_content_wrap.wrap_custom {
-    padding: $base-spacing * 3 0 0;
+    padding: $base-spacing * 1.5 0 0;
+
+    @include media($medium-screen-landscape) {
+        padding: $base-spacing * 3 0 0;
+    }
 }
 
 .footer_wrap {

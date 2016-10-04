@@ -546,7 +546,10 @@ body {
   padding: 0; }
 
 .page_content_wrap.wrap_custom {
-  padding: 4.5rem 0 0; }
+  padding: 2.25rem 0 0; }
+  @media screen and (min-width: 940px) {
+    .page_content_wrap.wrap_custom {
+      padding: 4.5rem 0 0; } }
 
 .footer_wrap {
   margin-top: 6rem; }
@@ -687,7 +690,7 @@ pre {
 
 .main-nav .menu-toggle {
   position: absolute;
-  right: 1.5rem;
+  right: 0.75rem;
   top: 1.5rem;
   cursor: pointer;
   height: 30px; }
