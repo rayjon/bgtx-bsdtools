@@ -545,6 +545,9 @@ body {
 .page_content_wrap.wrap_custom {
   padding: 4.5rem 0 0; }
 
+.footer_wrap {
+  margin-top: 4.5rem; }
+
 ul,
 ol {
   list-style-type: none;
