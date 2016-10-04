@@ -513,10 +513,11 @@ select {
   width: 100%; }
 
 form table {
-  margin: 0;
-  table-layout: auto; }
+  margin: 0; }
 form td {
   padding: 0; }
+form #contribution td.contribcolumn[style] {
+  width: 100% !important; }
 
 html {
   box-sizing: border-box; }

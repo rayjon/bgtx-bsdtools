@@ -102,10 +102,13 @@ select {
 form {
     table {
         margin: 0;
-        table-layout: auto;
     }
 
     td {
         padding: 0;
+    }
+
+    #contribution td.contribcolumn[style] {
+        width: 100% !important;
     }
 }
