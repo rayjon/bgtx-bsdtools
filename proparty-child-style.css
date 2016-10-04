@@ -549,6 +549,12 @@ body {
 .footer_wrap {
   margin-top: 6rem; }
 
+@media screen and (min-width: 940px) {
+  .row > [class*="column-"],
+  .columns_wrap > [class*="column-"] {
+    width: 100%;
+    float: none; } }
+
 ul,
 ol {
   list-style-type: none;
