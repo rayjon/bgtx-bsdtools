@@ -38,83 +38,6 @@
 16. Rev. slider
 17. Appointments
 -------------------------------------------------------------- */
-
-
-
-
-/* 1. Theme typography
--------------------------------------------------------------- */
-body {
-	color: #616161;
-	font-family: 'Montserrat', sans-serif !important;
-	font-size: 16px;
-	font-weight:400;
-	line-height: 24px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif !important;
-}
-
-h1 {
-	font: 400 50px/60px 'Montserrat' !important;
-	margin-top:0;
-	margin-bottom: 0.69em;
-}		/* 45px */
-
-h1.styling1 {
-	padding-left: 176px;
-}
-h1.styling1:before {
-	background-color: #dddddd;
-	content: '';
-	height: 2px;
-	position: absolute;
-	top: 32px; left: 56px;
-	width: 99px;
-}
-
-h2 {
-	font: 400 40px/60px 'Montserrat' !important;
-	margin-top:0;
-	margin-bottom: 0.75em;
-}		/* 38px */
-h3 {
-	font: 400 30px/36px 'Montserrat' !important;
-	margin-top:0;
-	margin-bottom: 0.8em;
-}		/* 32px */
-h4 {
-	font: 400 28px/30px 'Montserrat' !important;
-	margin-bottom: 1.1em;
-	margin-top: 0;
-}		/* 26px */
-h5 {
-	font: 700 18px/28px 'Montserrat' !important;
-    margin-bottom: 1.25em;
-	margin-top:0;
-}		/* 18px */
-h6 {
-	font: 800 14px/20px 'Montserrat' !important;
-	margin-top:0;
-	margin-bottom: 0.8em;
-}		/* 12px */
-h1+h2,h1+h3,h1+h4,h1+h5,h1+h6,
-h2+h3,h2+h4,h2+h5,h2+h6,
-h3+h4,h3+h5,h3+h6,
-h4+h5,h4+h6,
-h5+h6 {
-	margin-top:0;
-}
-dt, b, strong {	font-weight: 600; }
-
-
-/* Normal state */
-h1, h2, h3, h4, h5, h6,
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-	color:#363842;
-}
-
 .sidemenu_button i,
 .sidemenu_wrap .sidemenu_close,
 a, button {
@@ -296,62 +219,6 @@ a:hover, .vc_proparty_featured_projects_tmpl h4 a:hover {
 .days_container_all .booking_day_slots,
 .top_panel_style_light .content .search_wrap.search_style_regular .search_form_wrap .search_submit:hover {
 	color:#124b91 !important;
-}
-
-.menu_main_wrap .menu_main_nav_area .menu_main_responsive,
-.top_panel_style_dark.article_style_boxed .page_top_wrap .breadcrumbs a.breadcrumbs_item:hover,
-.pagination_single > .pager_numbers,
-.pagination_single a,
-.pagination_slider .pager_cur,
-.pagination_viewmore > a,
-.sc_button.sc_button_style_filled.sc_button_bg_menu,
-.viewmore_loader,
-.mfp-preloader span,
-.sc_video_frame.sc_video_active:before,
-.post_featured .post_nav_item:before,
-.post_featured .post_nav_item .post_nav_info,
-.reviews_block .reviews_summary .reviews_item,
-.sc_dropcaps.sc_dropcaps_style_3 .sc_dropcaps_item,
-.sc_highlight_style_2,
-.reviews_block .reviews_max_level_100:nth-child(3n+1) .reviews_stars_hover,
-.reviews_block .reviews_item:nth-child(3n+1) .reviews_slider,
-.widget_area .widget_calendar td a:hover,
-.sc_toggles.sc_toggles_style_2 .sc_toggles_item .sc_toggles_title .sc_toggles_icon,
-.sc_toggles.sc_toggles_style_1 .sc_toggles_item .sc_toggles_title:hover .sc_toggles_icon_opened,
-.tribe-events-button, #tribe-events .tribe-events-button:hover,
-.sc_icon_shape_round.sc_icon_bg_menu,
-.sc_icon_shape_square.sc_icon_bg_menu,
-.tribe-events-button, #tribe-events .tribe-events-button,
-.sc_accordion.sc_accordion_style_1 .sc_accordion_item .sc_accordion_title:hover .sc_accordion_icon_opened,
-.scroll_to_top,
-.sc_infobox.sc_infobox_style_success,
-.sc_popup:before,
-.sc_price_block.sc_price_block_style_2,
-.sc_scroll_controls_wrap a,
-.sc_slider_controls_wrap a,
-.custom_options #co_toggle,
-.woocommerce nav.woocommerce-pagination ul li a,
-.reviews_block .reviews_summary .reviews_stars,
-.woocommerce ul.products li.product .add_to_cart_button:hover, .woocommerce-page ul.products li.product .add_to_cart_button:hover,
-.sc_button.sc_button_style_filled:hover,
-.sc_contact_form_button button:hover,
-.woocommerce a.button:hover,
-.woocommerce-page button.button.alt:hover,
-.woocommerce button.button.alt:hover,
-.woocommerce-page button.button:hover,
-.woocommerce-page a.button:hover,
-.woocommerce button.button:hover,
-.woocommerce input.button:hover,
-.woocommerce-page input.button:hover,
-.woocommerce-page a.button.alt:hover,
-.woocommerce input.button.alt:hover,
-.woocommerce-page input.button.alt:hover,
-.top_stripe.top_stripe_bg2,
-.menu_user_wrap .menu_user_nav li > a:hover,
-.menu_user_wrap .menu_user_nav li:last-child > a:hover,
-.sc_events .isotope_item_classic .sc_button:hover,
-.woocommerce nav.woocommerce-pagination ul li span.current {
-	background-color: #124b91;
 }
 
 .sc_button.sc_emailer_button,
@@ -588,80 +455,6 @@ h4.post_title a:hover,
 .home1-sl3-date,
 a {
 	color: #3598db;
-}
-
-.sc_highlight_style_3,
-.sc_events .isotope_item_classic2 h5 a,
-#booking_slot_form > div > a:hover,
-.rev_slider_wrapper .search_wrap .search_form_wrap .search_submit:hover:before,
-.rev_slider_wrapper .search_wrap .search_icon:hover:before,
-.widget_area .widget_product_search .search_button:hover:before,
-.widget_area .widget_search .search_button:hover:before,
-.search_wrap .search_form_wrap .search_submit:hover:before,
-.search_wrap.search_style_regular .search_icon:hover,
-.menu_left_nav li a:hover, .menu_left_nav li a.active,
-.menu_left_nav li.current-menu-item a,
-.custom_options .menu_user_nav > li > a:hover,
-.custom_options .menu_user_nav > li > a:hover:after,
-.booking_day_container:hover .booking_day_slots {color:#3598db !important;}
-
-input[type="submit"]:hover,
-.sc_price_block.sc_price_block_style_1,
-.sc_skills_bar .sc_skills_item .sc_skills_count,
-.sc_skills_counter .sc_skills_item.sc_skills_style_3 .sc_skills_count,
-.sc_skills_counter .sc_skills_item.sc_skills_style_4 .sc_skills_count,
-.sc_skills_counter .sc_skills_item.sc_skills_style_4 .sc_skills_info,
-.sc_infobox.sc_infobox_style_regular,
-.sc_icon_shape_round.sc_icon_bg_link,
-.sc_icon_shape_square.sc_icon_bg_link,
-.tribe-events-button, #tribe-events .tribe-events-button,
-#tribe-bar-form .tribe-bar-submit input[type=submit],
-a.tribe-events-read-more,
-.tribe-events-button,
-.tribe-events-nav-previous a,
-.tribe-events-nav-next a,
-.tribe-events-widget-link a,
-.tribe-events-viewmore a,
-.sc_dropcaps.sc_dropcaps_style_2 .sc_dropcaps_item,
-.sc_highlight_style_1,
-.tribe-events-calendar thead th,
-.woocommerce table.cart thead th, .woocommerce #content table.cart thead th, .woocommerce-page table.cart thead th, .woocommerce-page #content table.cart thead th,
-.woocommerce ul.products li.product .add_to_cart_button, .woocommerce-page ul.products li.product .add_to_cart_button,
-.woocommerce .widget_price_filter .ui-slider .ui-slider-range,.woocommerce-page .widget_price_filter .ui-slider .ui-slider-range,
-.reviews_block .reviews_max_level_100:nth-child(3n+2) .reviews_stars_hover,
-.reviews_block .reviews_item:nth-child(3n+2) .reviews_slider,
-.scroll_to_top:hover,
-.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page #content input.button.alt,
-.woocommerce #respond input#submit:hover, .woocommerce #content input.button:hover,  .woocommerce-page #respond input#submit:hover, .woocommerce-page #content input.button:hover,  .woocommerce #respond input#submit.alt:hover, .woocommerce #content input.button.alt:hover,  .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page #content input.button.alt:hover,
-.woocommerce span.new, .woocommerce-page span.new,
-.woocommerce span.onsale, .woocommerce-page span.onsale,
-.sc_accordion.sc_accordion_style_1 .sc_accordion_item .sc_accordion_title.ui-state-active .sc_accordion_icon_opened,
-.sc_contact_form_button button,
-.sc_button.sc_button_style_filled.sc_button_bg_user,
-.sc_blogger.layout_date .sc_blogger_item .sc_blogger_date,
-.sc_scroll_bar .swiper-scrollbar-drag:before,
-.sc_toggles.sc_toggles_style_1 .sc_toggles_item .sc_toggles_title.ui-state-active .sc_toggles_icon_opened,
-.sc_tooltip_parent .sc_tooltip,
-.sc_tooltip_parent .sc_tooltip:before,
-.custom_options .emergency_phone,
-input[type="submit"], input[type="button"], button, .sc_button,
-.emergency_call_wrap,
-.sc_slider_controls_wrap a:hover,
-.sc_scroll_controls_wrap a:hover,
-.menu_main_wrap .menu_main_nav_area .menu_main_responsive a:hover,
-#booking_slot_form .booking_float_right .close_booking:hover,
-.sc_button.sc_button_style_filled.sc_button_bg_link:hover,
-.top_stripe.top_stripe_bg1,
-.menu_user_wrap .menu_user_nav li:last-child > a,
-.pagination_pages > a,
-.pagination_pages > span,
-h1.styling1:before,
-.sc_events .isotope_item_list .startDate,
-.sc_slider_swiper .sc_slider_pagination_wrap .swiper-active-switch,
-.sc_slider_swiper .sc_slider_pagination_wrap span:hover,
-.ancora-paypal-donations button,
-.sc_button.sc_button_style_filled:hover {
-	background-color: #3598db;
 }
 
 .menu_user_wrap {
@@ -971,7 +764,7 @@ input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
 	color: #959a9e;
 }
-input[type="checkbox"]:not(.input-checkbox) {
+/*input[type="checkbox"]:not(.input-checkbox) {
 	display:none;
 }
 input[type="checkbox"] + label {
@@ -994,7 +787,7 @@ input[type="checkbox"] + label:before {
 	background-color: #e8e8e8;
 }
 input[type="checkbox"]:checked + label:before {
-}
+}*/
 
 
 
@@ -1048,10 +841,6 @@ input[type="checkbox"]:checked + label:before {
 }
 
 /* User and main menu */
-.menu_user_wrap {
-	background-color: #f6f6f6;
-	height:40px;
-}
 .menu_user_wrap .menu_user_contact_area {color: #989ea1; font: 400 11px/40px 'Montserrat';}
 .menu_main_nav_area {
 	margin: 0;
@@ -1079,11 +868,6 @@ input[type="checkbox"]:checked + label:before {
 	margin-bottom:0;
 }
 
-
-.menu_user_wrap .menu_user_nav > li {
-	height:32px;
-	line-height:32px;
-}
 .menu_user_wrap .menu_user_nav > li a {
 	font-weight:400;
 }
@@ -1098,39 +882,6 @@ input[type="checkbox"]:checked + label:before {
 			box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.1);
 }
 
-.menu_main_wrap .menu_main_nav > li {
-	box-sizing: content-box;
-	font-weight:400;
-	font-size:11px;
-	-webkit-transition: all ease .3s;
-	-moz-transition: all ease .3s;
-	-ms-transition: all ease .3s;
-	-o-transition: all ease .3s;
-	transition: all ease .3s;
-
-}
-
-.menu_main_wrap .menu_main_nav > li > a {
-	color: #2b3242;
-	display: block;
-	font:400 13px/96px 'Montserrat';
-	letter-spacing: 0.5px;
-	padding:0 5px;
-	position: relative;
-	text-transform:uppercase;
-}
-.menu_main_wrap .menu_main_nav li > a {color: #2b3242;}
-.top_panel_fixed .menu_main_wrap .menu_main_nav > li > a {line-height: 76px;}
-.menu_user_wrap .menu_user_nav > li > a {
-	display: block;
-	padding:0 20px;
-}
-.menu_user_wrap .menu_user_nav li > a {
-	color: #989ea1;
-	font:400 10px/40px 'Montserrat';
-	letter-spacing: 0.7px;
-	text-transform: uppercase;
-}
 .menu_user_wrap .menu_user_nav li:last-child > a,
 .menu_user_wrap .menu_user_nav li > a:hover {color: #FFFFFF;}
 .menu_user_wrap .menu_user_nav li li > a {
@@ -1251,7 +1002,7 @@ input[type="checkbox"]:checked + label:before {
 .menu_main_wrap .menu_main_nav_area .menu_main_responsive {
 	-webkit-box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
 	   -moz-box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
-			box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);	
+			box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
 }
 .menu_main_wrap .menu_main_nav_area .menu_main_responsive li,
 .menu_main_wrap .menu_main_nav_area .menu_main_responsive a {
@@ -1317,7 +1068,7 @@ input[type="checkbox"]:checked + label:before {
 .search_wrap .search_results {
 	-webkit-box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
 	   -moz-box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
-			box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);	
+			box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -1325,13 +1076,13 @@ input[type="checkbox"]:checked + label:before {
 -------------------------------------------------------------- */
 .tparrows.default {
 	background:none;
-	background-color:transparent; 
-	line-height:40px; 
-	color: #ffffff; 
+	background-color:transparent;
+	line-height:40px;
+	color: #ffffff;
 }
-.tparrows.default:before { 
-	font-family: "fontello"; 
-	font-size:3em; 
+.tparrows.default:before {
+	font-family: "fontello";
+	font-size:3em;
 }
 .tp-leftarrow.default {left: 100px !important;}
 
@@ -1339,7 +1090,7 @@ input[type="checkbox"]:checked + label:before {
 	content: '\e837';
 }
 .tp-rightarrow.default {right: 100px !important;}
-.tp-rightarrow.default:before { 
+.tp-rightarrow.default:before {
 	content: '\e836';
 }
 .tp-bullets.simplebullets.round .bullet {
@@ -1403,7 +1154,7 @@ input[type="checkbox"]:checked + label:before {
 	   -moz-transition: all ease .3s;
 	    -ms-transition: all ease .3s;
 	     -o-transition: all ease .3s;
-	        transition: all ease .3s;	
+	        transition: all ease .3s;
 }
 .page_top_wrap .breadcrumbs a.breadcrumbs_item:hover {text-decoration: underline}
 .page_top_wrap .breadcrumbs .breadcrumbs_delimiter {
@@ -1416,7 +1167,7 @@ input[type="checkbox"]:checked + label:before {
 	text-align:center;
 }
 .page_top_wrap .breadcrumbs .breadcrumbs_delimiter:before {
-	font-family: "fontello"; 
+	font-family: "fontello";
 	content:'/';
 }
 .top_panel_style_dark.article_style_boxed .page_top_wrap .breadcrumbs .breadcrumbs_item {
@@ -1597,7 +1348,7 @@ h4.post_title {
 	border:1px solid #ddd;
 	-webkit-box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
 	   -moz-box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
-			box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);	
+			box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
 .pagination_wrap .pager_next,
@@ -2640,7 +2391,7 @@ a .sc_icon_shape_square:after {
 .sc_icon_shape_square.sc_icon_bg_user {	color: #ffffff; }
 
 /* Image */
-figure, 
+figure,
 .sc_image {
 	overflow:hidden;
 }
@@ -2663,7 +2414,7 @@ figure figcaption,
 	background-color:rgba(0,0,0, 0.2);
 	-webkit-box-shadow: -4px 3px 0px 0px rgba(128, 128, 128, 0.3);
 	   -moz-box-shadow: -4px 3px 0px 0px rgba(128, 128, 128, 0.3);
-			box-shadow: -4px 3px 0px 0px rgba(128, 128, 128, 0.3);	
+			box-shadow: -4px 3px 0px 0px rgba(128, 128, 128, 0.3);
 }
 .sc_price_block.sc_price_block_style_3 .sc_price_block_link .sc_button:hover {
 	background-color:#ef631f !important;
@@ -2900,7 +2651,7 @@ figure figcaption,
 			border-radius: 0;
 	-webkit-box-shadow: none;
 	   -moz-box-shadow: none;
-			box-shadow: none;	
+			box-shadow: none;
     color: #ffffff;
 	font-size:2.5em;
 }
@@ -2998,373 +2749,4 @@ form .booking_clear_custom:hover {
 #booking_slot_form .booking_font_cuprum > div:nth-child(3),
 #booking_slot_form .booking_font_cuprum > div:nth-child(2) {
 	font: 400 14px/49px 'Montserrat';
-}
-
-/* Responsive styles
--------------------------------------------------------------- */
-
-/*
-Apple iPhone 5, 5S & 5C 
-Apple iPod Touch (5th generation)
-*/
-@media (min-width: 1136px) and (max-width: 1279px) {
-	body {	font-size: 14px; }
-}
-
-
-/*
-Apple iPhone 4 & 4S
-Apple iPod Touch (4th generation)
-*/
-@media (min-width: 960px) and (max-width: 1135px) {
-	body {	font-size: 13px; }
-	h1 { font-size:3em; }		/* 39px */
-	h2 { font-size:2.3077em; }	/* 30px */
-	h3 { font-size:2.3077em; }	/* 30px */
-	h4 { font-size:1.3846em; }	/* 18px */
-	h5 { font-size:1.2308em; }	/* 16px */
-	h6 { font-size:1em; }		/* 13px */
-
-	/* Menu area */
-	.menu_main_wrap .logo a,
-	.menu_user_wrap {
-		font-size:0.8461em;
-	}
-	.menu_main_wrap .menu_main_nav > li {
-		font-size:0.9231em;
-	}
-	.menu_main_wrap .search_wrap {
-
-	}
-
-	.page_top_wrap .breadcrumbs {
-		font-size:0.8461em;
-	}
-	.page_top_wrap.page_top_title .breadcrumbs {
-		padding: 2em 0 1em 2.5em;
-	}
-	
-	/* Post layouts */
-	.isotope_filters a {
-		font-size:0.8461em;
-	}
-	
-	/* Post parts */
-	.post_info {
-		font-size:0.8461em;
-	}
-	.post_info {
-		font-size:0.8461em;
-	}
-	.post_rating .reviews_star {
-		font-size:1em;
-	}
-
-	/* Footer */
-	.contacts_wrap .contacts_address {
-		font-size: 1em;
-	}
-	
-	/* Widgets */
-	.widget_area .post_item .post_info {
-		font-size:0.7692em;
-	}
-	.widget_area .widget_tag_cloud a {
-		font-size:0.8461em !important;
-	}
-	.widget_area .widget_calendar .weekday {
-		font-size:0.8461em;
-	}
-	
-	/* Shortcodes */
-	.sc_testimonial_content {
-		font-size:1.25em;
-	}
-	.sc_testimonial_author {
-		font-size: 1em;
-	}
-	
-}
-
-
-
-/*
-Sony Xperia
-LG Optimus
-Blackberry Storm 3, Torch 9850 & Torch 9860
-Nokia Lumia 610, 710 & 800
-HTC Desire, Desire Z, Desire S & One V
-Samsung Galaxy
-*/
-@media (min-width: 800px) and (max-width: 959px) {
-	body {	font-size: 13px; }
-	h1 { font-size:3em; }		/* 39px */
-	h2 { font-size:2.3077em; }	/* 30px */
-	h3 { font-size:2.3077em; }	/* 30px */
-	h4 { font-size:1.3846em; }	/* 18px */
-	h5 { font-size:1.2308em; }	/* 16px */
-	h6 { font-size:1em; }		/* 13px */
-
-	/* Menu area */
-	.menu_main_wrap .logo a,
-	.menu_user_wrap {
-		font-size:0.8461em;
-	}
-	.menu_main_wrap .menu_main_nav > li {
-		font-size:0.9231em;
-	}
-
-	.page_top_wrap .breadcrumbs {
-		font-size:0.8461em;
-	}
-	.page_top_wrap.page_top_title .breadcrumbs {
-		padding: 2em 0 1em 2.5em;
-	}
-	
-	/* Post layouts */
-	.isotope_filters a {
-		font-size:0.8461em;
-	}
-	
-	/* Post parts */
-	.post_info {
-		font-size:0.8461em;
-	}
-	.post_info {
-		font-size:0.8461em;
-	}
-	.post_rating .reviews_star {
-		font-size:1em;
-	}
-
-	/* Footer */
-	.contacts_wrap .contacts_address {
-		font-size: 1em;
-	}
-	
-	/* Widgets */
-	.widget_area .post_item .post_info {
-		font-size:0.7692em;
-	}
-	.widget_area .widget_tag_cloud a {
-		font-size:0.8461em !important;
-	}
-	.widget_area .widget_calendar .weekday {
-		font-size:0.8461em;
-	}
-	.widget_area .reviews_block .reviews_summary .reviews_criteria {
-		font-size:0.7692em;
-	}
-	
-	/* Shortcodes */
-	.sc_testimonial_content {
-		font-size:1.25em;
-	}
-	.sc_testimonial_author {
-		font-size: 1em;
-	}
-
-}
-
-
-
-/*
-Portrait orientation
-
-Sony Xperia
-LG Optimus
-Blackberry Storm 3, Torch 9850 & Torch 9860
-Nokia Lumia 610, 710 & 800
-HTC Desire, Desire Z, Desire S & One V
-Samsung Galaxy
-*/
-@media (min-width: 480px) and (max-width: 799px) {
-	body {	font-size: 12px; }
-	h1 { font-size:2.5em; }		/* 30px */
-	h2 { font-size:2em; }		/* 24px */
-	h3 { font-size:2em; }		/* 24px */
-	h4 { font-size:1.3333em; }	/* 16px */
-	h5 { font-size:1.1667em; }	/* 14px */
-	h6 { font-size:1em; }		/* 12px */
-
-	/* Menu area */
-	.menu_main_wrap .logo a,
-	.menu_user_wrap {
-		font-size:0.8333em;
-	}
-	.menu_main_wrap .menu_main_nav > li {
-		font-size:0.9167em;
-	}
-
-	.page_top_wrap .breadcrumbs {
-		font-size:0.8333em;
-	}
-	
-	/* Post layouts */
-	.isotope_filters a {
-		font-size:0.8333em;
-	}
-	
-	/* Post parts */
-	.post_info {
-		font-size:0.8333em;
-	}
-	.post_info {
-		font-size:0.8333em;
-	}
-	.post_rating .reviews_star {
-		font-size:1em;
-	}
-
-	/* Footer */
-	.contacts_wrap .contacts_address {
-		font-size: 1em;
-	}
-	
-	/* Widgets */
-	.widget_area .post_item .post_info {
-		font-size:0.75em;
-	}
-	.widget_area .widget_tag_cloud a {
-		font-size:0.8333em !important;
-	}
-	.widget_area .widget_calendar .weekday {
-		font-size:0.8333em;
-	}
-	.widget_area .reviews_block .reviews_summary .reviews_criteria {
-		font-size:0.75em;
-	}
-	
-	/* Shortcodes */
-	.sc_testimonial_content {
-		font-size:1.25em;
-	}
-	.sc_testimonial_author {
-		font-size: 1em;
-	}
-	.sc_tabs .sc_tabs_titles li {
-		font-size:1.25em;
-	}
-	.sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
-		border-width: 1px;
-	}
-}
-
-
-
-/* "max-" oriented styles */
-@media (max-width: 1279px) {
-	.menu_main_wrap .menu_main_nav > li + li:not(.booking) > a::after {display: none;}
-}
-@media (max-width: 979px) {
-	#tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-previous, #tribe-events-header .tribe-events-sub-nav li,
-	#tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-next, #tribe-events-header .tribe-events-sub-nav .tribe-events-nav-next {float: none;}
-}
-
-@media (max-width: 959px) {
-	.menu_user_contact_area, .emergency_phone {display: none;}
-	.menu_main_responsive_button,
-	.menu_main_wrap .search_wrap {margin-top: 1.5em;margin-bottom: 1em;}
-}
-@media (max-width: 768px) {
-	#tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-next, #tribe-events-footer .tribe-events-sub-nav .tribe-events-nav-previous, #tribe-events-header .tribe-events-sub-nav .tribe-events-nav-next, #tribe-events-header .tribe-events-sub-nav .tribe-events-nav-previous {width: 100%;}
-	.menu_main_responsive_button {margin-top: 1.8em;}
-
-}
-
-/*
-Very common low res
-*/
-@media (max-width: 479px) {
-	body {	font-size: 12px; }
-	h1 { font-size:2.5em; }		/* 30px */
-	h2 { font-size:2em; }		/* 24px */
-	h3 { font-size:2em; }		/* 24px */
-	h4 { font-size:1.3333em; }	/* 16px */
-	h5 { font-size:1.1667em; }	/* 14px */
-	h6 { font-size:1em; }		/* 12px */
-
-	/* Menu area */
-	.menu_main_wrap .logo a {font-size:0.8333em;}
-	.menu_user_wrap {display: none}
-	.menu_main_wrap .menu_main_nav > li {
-		font-size:0.9167em;
-	}
-
-	.page_top_wrap .breadcrumbs {
-		font-size:0.8333em;
-	}
-
-
-	.menu_main_responsive_button {margin-top: 1.6em;margin-bottom: 1.2em;}
-	.menu_main_wrap .search_wrap {margin-top: 1.3em}
-	/* Post layouts */
-	.isotope_filters a {
-		font-size:0.8333em;
-	}
-	
-	/* Post parts */
-	.post_info {
-		font-size:0.8333em;
-	}
-	.post_info {
-		font-size:0.8333em;
-	}
-	.post_rating .reviews_star {
-		font-size:1em;
-	}
-	
-	/* Footer */
-	.contacts_wrap .contacts_address {
-		font-size: 1em;
-	}
-	
-	/* Widgets */
-	.widget_area .post_item .post_info {
-		font-size:0.75em;
-	}
-	.widget_area .widget_tag_cloud a {
-		font-size:0.8333em !important;
-	}
-	.widget_area .widget_calendar .weekday {
-		font-size:0.8333em;
-	}
-	.widget_area .reviews_block .reviews_summary .reviews_criteria {
-		font-size:0.75em;
-	}
-	
-	/* Shortcodes */
-	blockquote {
-		font-size: 1.5em;
-	}
-	.sc_countdown.sc_countdown_style_1 .sc_countdown_digits,
-	.sc_countdown.sc_countdown_style_1 .sc_countdown_separator {
-		font-size:2em;
-		height: 2em;
-		line-height:2em;
-	}
-	.sc_countdown.sc_countdown_style_1 .sc_countdown_digits {
-		width: 2em;
-	}
-	.sc_testimonial_content {
-		font-size:1.25em;
-	}
-	.sc_testimonial_author {
-		font-size: 1em;
-	}
-	.sc_tabs .sc_tabs_titles li {
-		font-size:1.25em;
-	}
-	.sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
-		border-width: 1px;
-	}
-
-	/* Contact Form */
-
-	.sc_contact_form.sc_contact_form_standard.contact_form_full_boxed .sc_contact_form_field {
-		border: 0 none;
-		margin: 0 0 20px;
-		padding: 0;
-		width: 100%;
-	}
 }
