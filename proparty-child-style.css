@@ -461,12 +461,13 @@ textarea {
 
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
   appearance: none;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #F8F8F8;
+  border: 1px solid #999;
   border-radius: 3px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
-  margin-bottom: 0.75em;
+  height: 50px;
+  margin-bottom: 2.25em;
   padding: 0.5em;
   transition: border-color 150ms ease;
   width: 100%; }
@@ -497,8 +498,15 @@ textarea {
   width: 100%; }
 
 select {
+  border: 1px solid #999;
+  height: 50px;
   margin-bottom: 0.75em;
   width: 100%; }
+
+form table {
+  margin: 0; }
+form td {
+  padding: 0; }
 
 html {
   box-sizing: border-box; }
@@ -822,12 +830,6 @@ body, p {
 
 input[type="checkbox"] + label {
   box-sizing: content-box; }
-
-select {
-  border: 1px solid #777;
-  height: 50px;
-  margin-bottom: 1.5em;
-  width: 100%; }
 
 #contribution label, #contribution .fieldlabel {
   display: inline; }
