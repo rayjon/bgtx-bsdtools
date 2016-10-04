@@ -33,7 +33,7 @@ body {
 
 .row > [class*="column-"],
 .columns_wrap > [class*="column-"] {
-    @include media($medium-screen-landscape) {
+    @include media(max-width $medium-screen-landscape) {
         width: 100%;
         float: none;
     }

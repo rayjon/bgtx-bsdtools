@@ -549,7 +549,7 @@ body {
 .footer_wrap {
   margin-top: 6rem; }
 
-@media screen and (min-width: 940px) {
+@media screen and (max-width: 940px) {
   .row > [class*="column-"],
   .columns_wrap > [class*="column-"] {
     width: 100%;
