@@ -515,7 +515,8 @@ select {
   width: 100%; }
 
 form table {
-  margin: 0; }
+  margin: 0;
+  table-layout: auto; }
 form td {
   padding: 0; }
 
