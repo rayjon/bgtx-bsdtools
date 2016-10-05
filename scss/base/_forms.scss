@@ -94,7 +94,7 @@ textarea {
 select {
   border: $form-border;
   height: $field-height;
-  margin-bottom: $small-spacing;
+  margin-bottom: $base-spacing;
   width: 100%;
 }
 
@@ -121,7 +121,7 @@ form {
 
 body #contribution .text,
 body #signup .text {
-    margin-bottom: $small-spacing;
+    margin-bottom: $base-spacing;
 }
 
 body #contribution td td td {

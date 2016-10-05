@@ -509,7 +509,7 @@ textarea {
 select {
   border: 1px solid #999;
   height: 50px;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
   width: 100%; }
 
 form table {
@@ -525,7 +525,7 @@ form td {
 
 body #contribution .text,
 body #signup .text {
-  margin-bottom: 0.75rem; }
+  margin-bottom: 1.5rem; }
 
 body #contribution td td td {
   padding: 0; }
