@@ -144,7 +144,6 @@ $header-font-color: #2B3242;
     li a {
         color: $base-background-color;
         letter-spacing: .5px;
-        text-transform: uppercase;
 
         @include media($medium-screen-landscape) {
             color: $header-font-color;

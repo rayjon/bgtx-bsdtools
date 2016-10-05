@@ -767,8 +767,7 @@ pre {
         text-indent: 0; } }
   .menu_main_nav li a {
     color: #fff;
-    letter-spacing: .5px;
-    text-transform: uppercase; }
+    letter-spacing: .5px; }
     @media screen and (min-width: 940px) {
       .menu_main_nav li a {
         color: #2B3242;
