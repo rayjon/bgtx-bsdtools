@@ -523,6 +523,7 @@ form td {
 #contribution label .radio:last-child {
   margin: 0; }
 
+body #contribution .text,
 body #signup .text {
   margin-bottom: 0.75rem; }
 
