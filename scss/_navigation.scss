@@ -151,6 +151,7 @@ $header-font-color: #2B3242;
             padding: 0;
             height: $header-height;
             line-height: $header-height;
+            text-transform: uppercase;
         }
 
         &:hover {

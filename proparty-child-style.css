@@ -774,7 +774,8 @@ pre {
         font-size: 13px;
         padding: 0;
         height: 86px;
-        line-height: 86px; } }
+        line-height: 86px;
+        text-transform: uppercase; } }
     .menu_main_nav li a:hover {
       color: #bfbfbf; }
       @media screen and (min-width: 940px) {
