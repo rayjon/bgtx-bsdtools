@@ -120,5 +120,13 @@ form {
 }
 
 body #signup .text {
-    margin-bottom: $base-spacing;
+    margin-bottom: $small-spacing;
+}
+
+body #contribution td td td {
+    padding: 0;
+}
+
+body #contribution td, #contribution th {
+    padding: 0;
 }

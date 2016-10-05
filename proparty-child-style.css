@@ -524,7 +524,13 @@ form td {
   margin: 0; }
 
 body #signup .text {
-  margin-bottom: 1.5rem; }
+  margin-bottom: 0.75rem; }
+
+body #contribution td td td {
+  padding: 0; }
+
+body #contribution td, #contribution th {
+  padding: 0; }
 
 html {
   box-sizing: border-box; }
