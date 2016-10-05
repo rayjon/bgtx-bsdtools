@@ -523,7 +523,7 @@ form td {
 #contribution label .radio:last-child {
   margin: 0; }
 
-#signup .text {
+body #signup .text {
   margin-bottom: 1.5rem; }
 
 html {
