@@ -464,7 +464,7 @@ label {
   display: block;
   margin: 0 0 0.75rem 1.875rem; }
 
-.bsd-identification-type input[type="radio"] + label {
+input[type="radio"].bsd-identification-type + label {
   display: inline; }
 
 input,

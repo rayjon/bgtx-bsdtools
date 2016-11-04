@@ -31,7 +31,7 @@ label {
     }
 }
 
-.bsd-identification-type input[type="radio"] + label {
+input[type="radio"].bsd-identification-type + label {
     display: inline;
 }
 
