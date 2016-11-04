@@ -32,7 +32,8 @@ label {
 }
 
 input[type="radio"].bsd-identification-type + label {
-    display: inline;
+    display: inline-block;
+    padding-bottom: $small-spacing;
 }
 
 input,
