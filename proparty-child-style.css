@@ -439,6 +439,7 @@ button, [type='button'], [type='reset'], [type='submit'] {
       background-color: #124B91; }
 
 td.button {
+  display: block;
   margin-top: 1.5rem; }
 
 fieldset {
