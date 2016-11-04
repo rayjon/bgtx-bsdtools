@@ -438,6 +438,9 @@ button, [type='button'], [type='reset'], [type='submit'] {
     button:disabled:hover, [type='button']:disabled:hover, [type='reset']:disabled:hover, [type='submit']:disabled:hover {
       background-color: #124B91; }
 
+td.button {
+  margin-top: 1.5rem; }
+
 fieldset {
   background-color: transparent;
   border: 0;
