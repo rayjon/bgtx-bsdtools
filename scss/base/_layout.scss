@@ -13,10 +13,7 @@ body {
   height: 100%;
 }
 
-.footer_wrap .content_wrap,
-.copyright_wrap .content_wrap,
-.top_panel_wrap .content_wrap,
-.wpb_wrapper {
+.content_wrap {
     @include outer-container($local-max-width);
     box-sizing: content-box;
     padding: 0 $base-spacing;
