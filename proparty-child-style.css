@@ -463,12 +463,11 @@ label {
   float: left;
   height: 1.5rem;
   transform: scale(1.35); }
-
 .input input[type="checkbox"] + label {
   display: block;
   margin: 0 0 0.75rem 1.875rem; }
 
-input[type="radio"].bsd-identification-type + label {
+input[type="radio"] + label, input[type="radio"].bsd-identification-type + label {
   display: inline-block;
   padding-bottom: 0.75rem; }
 
@@ -526,7 +525,6 @@ select {
 form table {
   margin: 0;
   table-layout: auto; }
-
 form td {
   padding: 0; }
 
@@ -731,7 +729,6 @@ pre {
     background: #124B91;
     margin: 7px 5px;
     box-shadow: 0px 10px 0px #124B91, 0px 20px 0px #124B91; }
-
 .main-nav input[type=checkbox] {
   display: none; }
   .main-nav input[type=checkbox]:checked ~ .menu_main_nav {
@@ -914,7 +911,6 @@ input[type="checkbox"] + label {
 @media (max-width: 480px) {
   #SKIN #simplesearch th.form_label, #SKIN #eventdetail th.form_label, #SKIN #eventcreate td.label, #SKIN #loginform th.form_label, #SKIN #inviteform th.form_label, #SKIN #signupform th.form_label {
     width: 50% !important; } }
-
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=proparty-child-style.css.map */

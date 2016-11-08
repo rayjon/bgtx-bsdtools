@@ -31,9 +31,13 @@ label {
     }
 }
 
-input[type="radio"].bsd-identification-type + label {
-    display: inline-block;
-    padding-bottom: $small-spacing;
+input[type="radio"] {
+    
+    + label,
+    &.bsd-identification-type + label {
+        display: inline-block;
+        padding-bottom: $small-spacing;
+    }
 }
 
 input,
