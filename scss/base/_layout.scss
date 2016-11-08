@@ -13,8 +13,9 @@ body {
   height: 100%;
 }
 
-.footer_wrap,
-.copyright_wrap,
+.footer_wrap .content_wrap,
+.copyright_wrap .content_wrap,
+.top_panel_wrap .content_wrap,
 .wpb_wrapper {
     @include outer-container($local-max-width);
     box-sizing: content-box;

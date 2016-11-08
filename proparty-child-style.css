@@ -557,16 +557,18 @@ html,
 body {
   height: 100%; }
 
-.footer_wrap,
-.copyright_wrap,
+.footer_wrap .content_wrap,
+.copyright_wrap .content_wrap,
+.top_panel_wrap .content_wrap,
 .wpb_wrapper {
   max-width: 1150px;
   margin-left: auto;
   margin-right: auto;
   box-sizing: content-box;
   padding: 0 1.5rem; }
-  .footer_wrap::after,
-  .copyright_wrap::after,
+  .footer_wrap .content_wrap::after,
+  .copyright_wrap .content_wrap::after,
+  .top_panel_wrap .content_wrap::after,
   .wpb_wrapper::after {
     clear: both;
     content: "";
