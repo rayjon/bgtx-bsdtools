@@ -38,10 +38,6 @@
 16. Rev. slider
 17. Appointments
 -------------------------------------------------------------- */
-<<<<<<< HEAD
-=======
-
-
 
 
 /* 1. Theme typography
@@ -679,36 +675,6 @@ textarea,
 .sc_button.sc_button_style_border:hover {
 	border-color: #f5f5f5 !important;
 }
-/* colors 3 dark*/
-#booking_slot_form > div,
-#booking_slot_form > div > a,
-#form_container_all > div > div,
-.sc_icon.sc_icon_bg_user:hover,
-a:hover .sc_icon.sc_icon_bg_user,
-#tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option.tribe-bar-active a:hover,
-input[type="submit"],
-input[type="button"],
-button,
-.sc_button:not(.tribe-events-read-more),
-.sc_button.sc_button_style_filled:not(.tribe-events-read-more),
-.esg-sortbutton,
-.esg-sorting-select,
-.esg-pagination-button,
-.esg-sortbutton-order,
-input[type="text"],
-input[type="number"],
-input[type="email"],
-input[type="search"],
-input[type="password"],
-textarea,
-.page_top_wrap .breadcrumbs span,
-#booking_slot_form .booking_font_cuprum > div:nth-child(3),
-#booking_slot_form .booking_font_cuprum > div:nth-child(2),
-.reviews_block .reviews_summary .reviews_criteria,
-.tribe-events-day .tribe-events-day-time-slot h5 {
-	color:#7d7f83;
-}
-
 
 #booking_container input:not(#booking_submit_button),
 #booking_container textarea,
@@ -819,52 +785,6 @@ td, th,
 .bg_tint_dark .sc_emailer input[type="text"] {
 	background-color: #FFFFFF;
 }
-
-textarea,
-input[type="submit"],
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
-	-webkit-transition: all ease .3s;
-	   -moz-transition: all ease .3s;
-	    -ms-transition: all ease .3s;
-	     -o-transition: all ease .3s;
-	        transition: all ease .3s;
-}
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
-	color: #959a9e;
-}
-/*input[type="checkbox"]:not(.input-checkbox) {
-	display:none;
-}
-input[type="checkbox"] + label {
-	line-height:1.5em;
-	margin-left: 1px;
-	position:relative;
-	padding-left:2em;
-}
-input[type="checkbox"] + label:before {
-	content:' ';
-	font-family:fontello;
-	display:block;
-	position:absolute;
-	text-align:center;
-	top:0;
-	left:0;
-	width: 1.25em;
-	height:1.25em;
-	border: 1px solid #afafaf;
-	background-color: #e8e8e8;
-}
-input[type="checkbox"]:checked + label:before {
-}*/
-
-
-
 
 /* 7. Section's decorations
 -------------------------------------------------------------- */
@@ -2258,67 +2178,6 @@ a.tribe-events-read-more,
 .mejs-controls .mejs-time-rail .mejs-time-loaded {
 	background: #666666 !important;
 }
-
-
-/* Button */
-input[type="submit"],
-input[type="button"],
-button,
-.sc_button {
-	border:none;
-	background-color: #e8e8e8;
-	font-family: 'Montserrat';
-	margin-right:4px;
-	margin-bottom:4px;
-}
-.sc_button.sc_button_style_filled.sc_button_bg_menu {
-	color: #FFFFFF;
-}
-
-.sc_contact_form_button button,
-.sc_button.sc_button_style_filled.sc_button_bg_user {
-	color: #FFFFFF;
-}
-
-input[type="submit"]:hover,
-input[type="button"]:hover,
-button:hover,
-.sc_button.sc_button_style_filled:hover {
-
-	color: #FFFFFF;
-}
-.sc_button.sc_button_style_border {
-	background-color: #FFFFFF;
-	border-width: 1px;
-	border-style: solid;
-}
-.sc_button.sc_button_style_border.sc_button_size_small {
-	height: 46px;
-	line-height: 46px;
-}
-.sc_button.sc_button_style_border.sc_button_size_small:hover span + span {
-	transform: translateY(-46px);
-}
-.sc_button.sc_button_style_border.sc_button_size_medium {
-	height: 56px;
-	line-height: 56px;
-}
-.sc_button.sc_button_style_border.sc_button_size_medium:hover span + span {
-	transform: translateY(-56px);
-}
-.sc_button.sc_button_style_border.sc_button_size_large {
-	height: 66px;
-	line-height: 66px;
-}
-
-.sc_button.sc_button_style_border.sc_button_size_large:hover span + span {
-	transform: translateY(-66px);
-}
-.sc_button.sc_button_style_border.sc_button_bg_link {background-color: transparent;}
-
-.vc_btn,
-a.vc_btn,
-button.vc_btn {font-family: 'Montserrat' !important;;}
 
 /* Blogger */
 .sc_blogger.layout_date .sc_blogger_item .sc_blogger_date {
