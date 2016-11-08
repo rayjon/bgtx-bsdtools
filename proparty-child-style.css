@@ -442,6 +442,9 @@ td.button {
   display: block;
   margin-top: 1.5rem; }
 
+.input input[type="submit"] {
+  margin-top: 3rem; }
+
 fieldset {
   background-color: transparent;
   border: 0;
@@ -554,17 +557,13 @@ html,
 body {
   height: 100%; }
 
+/*
 .content_wrap {
-  max-width: 1150px;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: content-box;
-  padding: 0 1.5rem; }
-  .content_wrap::after {
-    clear: both;
-    content: "";
-    display: block; }
-
+    @include outer-container($local-max-width);
+    box-sizing: content-box;
+    padding: 0 $base-spacing;
+}
+*/
 .sc_content.content_wrap {
   padding: 0; }
 
