@@ -557,13 +557,21 @@ html,
 body {
   height: 100%; }
 
-/*
-.content_wrap {
-    @include outer-container($local-max-width);
-    box-sizing: content-box;
-    padding: 0 $base-spacing;
-}
-*/
+.footer_wrap,
+.copyright_wrap,
+.wpb_wrapper {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: content-box;
+  padding: 0 1.5rem; }
+  .footer_wrap::after,
+  .copyright_wrap::after,
+  .wpb_wrapper::after {
+    clear: both;
+    content: "";
+    display: block; }
+
 .sc_content.content_wrap {
   padding: 0; }
 
