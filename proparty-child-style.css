@@ -686,6 +686,7 @@ pre {
     height: 40px;
     line-height: 40px; }
   .top-bar-menu li a {
+    color: white;
     padding: 0 1.125rem; }
   .top-bar-menu .donate-now {
     background: #3598DB;
