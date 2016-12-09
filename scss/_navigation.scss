@@ -30,6 +30,10 @@ $header-font-color: #2B3242;
     
     li .fa {
         color: #989EA1;
+        
+        &:hover {
+            color: white;
+        }
     }
 
     .donate-now {
