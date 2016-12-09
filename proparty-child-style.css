@@ -596,6 +596,7 @@ body {
   font-family: FontAwesome; }
 
 .header_social_icons .fa {
+  color: #ffffff;
   margin-top: 10px; }
 
 dl {
