@@ -49,3 +49,13 @@ body {
         margin: 0;
     }
 }
+
+.icon-instagramm::before {
+  content: "\f16d";
+  font-family: FontAwesome;
+}
+
+.header_social_icons .fa {
+  margin-top: 10px;
+  
+}
