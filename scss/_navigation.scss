@@ -27,6 +27,10 @@ $header-font-color: #2B3242;
     li a {
         color: white;
         padding: 0 $small-spacing * 1.5;
+        
+        &:hover {
+            color: #ccc;
+        }
     }
 
     .donate-now {

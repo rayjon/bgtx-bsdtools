@@ -685,6 +685,8 @@ pre {
   .top-bar-menu li a {
     color: white;
     padding: 0 1.125rem; }
+    .top-bar-menu li a:hover {
+      color: #ccc; }
   .top-bar-menu .donate-now {
     background: #3598DB;
     text-transform: uppercase;
