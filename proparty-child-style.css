@@ -595,9 +595,8 @@ body {
   content: "\f16d";
   font-family: FontAwesome; }
 
-.header_social_icons .fa {
-  color: #ffffff;
-  margin-top: 10px; }
+.top-bar-menu .fa {
+  color: #ffffff; }
 
 dl {
   margin: 0; }
