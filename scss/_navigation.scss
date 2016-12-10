@@ -22,18 +22,18 @@ $header-font-color: #2B3242;
         float: left;
         height: $top-bar-height;
         line-height: $top-bar-height;
+        
+        &:hover {
+            background: $yale-blue;
+        }
     }
 
     li a {
-        padding: 0 $small-spacing * 1.5;
-        
-        &:hover {
-            background: #124B91;
-        }
+        padding: 0 $small-spacing * 1.5;    
     }
     
     li .fa {
-        color: #989EA1;
+        color: $santas-gray;
         
         &:hover {
             color: white;
