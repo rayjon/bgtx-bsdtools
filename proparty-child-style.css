@@ -684,6 +684,8 @@ pre {
     line-height: 40px; }
   .top-bar-menu li a {
     padding: 0 1.125rem; }
+    .top-bar-menu li a:hover {
+      background: #124B91; }
   .top-bar-menu li .fa {
     color: #989EA1; }
     .top-bar-menu li .fa:hover {
