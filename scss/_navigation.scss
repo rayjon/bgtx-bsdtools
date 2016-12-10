@@ -25,7 +25,9 @@ $header-font-color: #2B3242;
         
         &:hover {
             background: $yale-blue;
-            color: white;
+            .fa {
+                color: white;
+            }
         }
     }
 
@@ -34,11 +36,7 @@ $header-font-color: #2B3242;
     }
     
     li .fa {
-        color: $santas-gray;
-        
-        &:hover {
-            color: white;
-        }
+        color: $santas-gray;        
     }
 
     .donate-now {

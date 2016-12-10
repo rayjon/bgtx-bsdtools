@@ -683,14 +683,13 @@ pre {
     height: 40px;
     line-height: 40px; }
     .top-bar-menu li:hover {
-      background: #124B91;
-      color: white; }
+      background: #124B91; }
+      .top-bar-menu li:hover .fa {
+        color: white; }
   .top-bar-menu li a {
     padding: 0 1.125rem; }
   .top-bar-menu li .fa {
     color: #989EA1; }
-    .top-bar-menu li .fa:hover {
-      color: white; }
   .top-bar-menu .donate-now {
     background: #3598DB;
     text-transform: uppercase;
