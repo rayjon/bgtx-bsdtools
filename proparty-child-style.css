@@ -545,6 +545,16 @@ body #contribution td td td {
 body #contribution td, #contribution th {
   padding: 0; }
 
+/* Single Checkbox Edits */
+body #signup label, #signup .label, #signup .fieldlabel {
+  font-weight: normal; }
+
+#signup .fieldset.inline-check {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-bottom: 0.75rem; }
+
 html {
   box-sizing: border-box; }
 
