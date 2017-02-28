@@ -1,11 +1,8 @@
 .sass-cache
+*.codekit
+*.codekit3
+*.sublime-project
+*.sublime-workspace
 
 email-template-default-header.html
-
 email-template-default-footer.html
-
-config.codekit3
-
-Battleground Texas _ TEST_files
-
-Battleground Texas _ TEST.html

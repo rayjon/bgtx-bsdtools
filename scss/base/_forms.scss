@@ -108,17 +108,20 @@ select {
 }
 
 // Corrections for table based form-box-shadow
+$breakpoint-tablet: 768px;
 form {
     table {
         margin: 0;
-        table-layout: auto;
+        table-layout: fixed;
+
+        // @media (min-width: $breakpoint-tablet) {
+        //   table-layout: auto;
+        // }
     }
 
     td {
         padding: 0;
     }
-
-
 }
 
 #contribution td.contribcolumn[style] {
@@ -155,5 +158,35 @@ body #signup label, #signup .label, #signup .fieldlabel {
         justify-content: flex-end;
         margin-bottom: $small-spacing;
     }
+}
 
+body #invitationpage td {
+    display: block;
+}
+
+body {
+  .contact_importer_email,
+  #from_email,
+  #from_firstname,
+  #from_lastname {
+    width: 100%;
+  }
+
+  #invitationpage .label {
+    text-align: left;
+  }
+
+  #invitationpage #contact_importer_button {
+    max-width: 100%;
+  }
+
+  #invitationpage .bsd-shareButtons-wrap a {
+    margin-bottom: 1rem;
+  }
+
+  #captcha_container,
+  #captcha_container #recaptcha_image {
+    width: 100% !important;
+    height: auto !important;
+  }
 }
