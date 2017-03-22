@@ -19,7 +19,7 @@ gulp.task('sass', function () {
     .pipe(sourcemaps.init())
     // Run Sass on those files
     .pipe(sass(sassOptions).on('error', sass.logError))
-    .pipe(sourcemaps.write())
+    .pipe(sourcemaps.write(output))
     .pipe(autoprefixer())
     // Write the resulting CSS in the output folder
     .pipe(gulp.dest(output));
