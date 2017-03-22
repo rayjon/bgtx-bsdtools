@@ -114,9 +114,9 @@ form {
         margin: 0;
         table-layout: fixed;
 
-        // @media (min-width: $breakpoint-tablet) {
-        //   table-layout: auto;
-        // }
+        @media (min-width: $breakpoint-tablet) {
+          table-layout: auto;
+        }
     }
 
     td {
@@ -158,11 +158,7 @@ body #signup label, #signup .label, #signup .fieldlabel {
         justify-content: flex-end;
         margin-bottom: $small-spacing;
     }
-}
-
-body #invitationpage td {
-    display: block;
-}
+} 
 
 body {
   .contact_importer_email,
@@ -172,8 +168,26 @@ body {
     width: 100%;
   }
 
+  #invite_table {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  #captcha_container #captcha_buttons {
+    float: left;
+  }
+
+  #invitationpage td {
+    display: block;
+
+    @media (min-width: $breakpoint-tablet) {
+      display: table-cell;
+    }
+  }
+
   #invitationpage .label {
     text-align: left;
+    width: 100%;
   }
 
   #invitationpage #contact_importer_button {
@@ -188,5 +202,17 @@ body {
   #captcha_container #recaptcha_image {
     width: 100% !important;
     height: auto !important;
+  }
+}
+
+// Fix for Unsubscribe Page http://join.battlegroundtexas.com/page/unsubscribe/
+#unsub_form {
+  td {
+      display: block;
+      text-align: left;
+  }
+
+  input[type="submit"] {
+    letter-spacing: 1px;
   }
 }

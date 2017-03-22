@@ -544,6 +544,9 @@ select {
 form table {
   margin: 0;
   table-layout: fixed; }
+  @media (min-width: 768px) {
+    form table {
+      table-layout: auto; } }
 
 form td {
   padding: 0; }
@@ -581,17 +584,28 @@ body #signup label, #signup .label, #signup .fieldlabel {
           justify-content: flex-end;
   margin-bottom: 0.75rem; }
 
-body #invitationpage td {
-  display: block; }
-
 body .contact_importer_email,
 body #from_email,
 body #from_firstname,
 body #from_lastname {
   width: 100%; }
 
+body #invite_table {
+  width: 100% !important;
+  padding: 0 !important; }
+
+body #captcha_container #captcha_buttons {
+  float: left; }
+
+body #invitationpage td {
+  display: block; }
+  @media (min-width: 768px) {
+    body #invitationpage td {
+      display: table-cell; } }
+
 body #invitationpage .label {
-  text-align: left; }
+  text-align: left;
+  width: 100%; }
 
 body #invitationpage #contact_importer_button {
   max-width: 100%; }
