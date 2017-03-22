@@ -6,7 +6,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
 
 var input  = './scss/**/*.scss';
-var output = './proparty-child-style.css';
+var output = './';
 var sassOptions = {
   errLogToConsole: true,
   outputStyle: 'expanded'
@@ -19,7 +19,7 @@ gulp.task('sass', function () {
     .pipe(sourcemaps.init())
     // Run Sass on those files
     .pipe(sass(sassOptions).on('error', sass.logError))
-    .pipe(sourcemaps.write('./'))
+    .pipe(sourcemaps.write())
     .pipe(autoprefixer())
     // Write the resulting CSS in the output folder
     .pipe(gulp.dest(output));
