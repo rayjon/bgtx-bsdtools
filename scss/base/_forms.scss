@@ -206,7 +206,13 @@ body {
 }
 
 // Fix for Unsubscribe Page http://join.battlegroundtexas.com/page/unsubscribe/
-#unsub_form td {
-    display: block;
-    text-align: left;
+#unsub_form {
+  td {
+      display: block;
+      text-align: left;
+  }
+
+  input[type="submit"] {
+    letter-spacing: 1px;
+  }
 }
