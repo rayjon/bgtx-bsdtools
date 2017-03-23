@@ -152,12 +152,12 @@ body #signup label, #signup .label, #signup .fieldlabel {
 }
 
 #signup {
-    .fieldset.inline-check {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: flex-end;
-        margin-bottom: $small-spacing;
-    }
+  .fieldset.inline-check {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-bottom: $small-spacing;
+  }
 } 
 
 body {
@@ -173,43 +173,41 @@ body {
     padding: 0 !important;
   }
 
-  #captcha_container #captcha_buttons {
-    float: left;
-  }
+  #invitationpage {
+    td {
+      display: block;
+    }
 
-  #invitationpage td {
-    display: block;
+    #contact_importer_button {
+      max-width: 100%;
+    }
 
-    @media (min-width: $breakpoint-tablet) {
-      display: table-cell;
+    .bsd-shareButtons-wrap a {
+      margin-bottom: 1rem;
+    }
+
+    .label {
+      text-align: left;
+      width: 100%;
     }
   }
+}
 
-  #invitationpage .label {
-    text-align: left;
-    width: 100%;
-  }
+#captcha_container #captcha_buttons {
+  float: left;
+}
 
-  #invitationpage #contact_importer_button {
-    max-width: 100%;
-  }
-
-  #invitationpage .bsd-shareButtons-wrap a {
-    margin-bottom: 1rem;
-  }
-
-  #captcha_container,
-  #captcha_container #recaptcha_image {
-    width: 100% !important;
-    height: auto !important;
-  }
+#captcha_container,
+#captcha_container #recaptcha_image {
+  width: 100% !important;
+  height: auto !important;
 }
 
 // Fix for Unsubscribe Page http://join.battlegroundtexas.com/page/unsubscribe/
 #unsub_form {
   td {
-      display: block;
-      text-align: left;
+    display: block;
+    text-align: left;
   }
 
   input[type="submit"] {
