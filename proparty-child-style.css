@@ -974,7 +974,7 @@ pre {
     margin-right: 0;
   }
   .nav-container .logo a img {
-    width: 243px;
+    width: 287px;
   }
 }
 
@@ -1023,6 +1023,7 @@ pre {
   .menu_main_nav {
     display: block;
     float: right;
+    margin-top: 0;
   }
 }
 
